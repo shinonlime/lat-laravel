@@ -443,3 +443,11 @@
     </div>
 </div>
 @endsection
+
+@push('datatable')
+<script>
+  $(function () {
+    $("#example1").DataTable();
+  });
+</script>
+@endpush
