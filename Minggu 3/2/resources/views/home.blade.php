@@ -19,7 +19,7 @@
     <h3>Cara Bergabung ke SanberBook</h3>
     <ol style="list-style-type: decimal;">
         <li>mengunjungi Website ini</li>
-        <li>Mendaftar di <a href="{{action('AuthController@form')}}">Form Sign Up</a></li>
+        <li>Mendaftar di <a href="{{url('/form')}}">Form Sign Up</a></li>
         <li>Selesai!</li>
     </ol>
 </body>

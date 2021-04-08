@@ -9,7 +9,7 @@
 <body>
     <h1>Buat Account Baru!</h1>
     <h3>Sign Up Form</h3>
-    <form action="/welcome" method="POST">
+    <form action="{{url('/welcome')}}" method="POST">
         @csrf
         <label for="first">First Name</label><br>
         <input type="text" id="first" name="first"><br><br>
